@@ -1,3 +1,4 @@
+var homepage = "https://tersentak.blogspot.com";
 function random_posts(json) {
     for (var i = 0; i < randomposts_number; i++) {
         var entry = json.feed.entry[i];
